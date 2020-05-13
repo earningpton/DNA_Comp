@@ -21,10 +21,12 @@ class ArithmeticCoder:
         self.output = bitout
         self.num_underflow = 0
     def getRange(self):
+        self.range = self.high - self.low + 1
         return self.range
     def getTarget(self):
         return self.target - self.low
     def getTarget(self, t):
+        self.range = self.high - self.low + 1
         r = self.range / t
         dr = (self.target - self.low) / r
         return t - 1 if (t-1 < dr) else dr
@@ -71,6 +73,7 @@ class ArithmeticCoder:
             self.underflow_encode()
             self.low = (self.low << 1) ^ self.half_range
             self.high = ((self.high ^ self.half_range) << 1) | self.half_range | 1
+            
     def shift_encode(self):
         bit = self.low >> (self.num_state_bits - 1)
         self.output.write(bit)
