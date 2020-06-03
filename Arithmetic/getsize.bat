@@ -2,7 +2,7 @@
 
 ECHO OFF
 
-set target=C:\Users\saiou\github\DNA_Comp\Arithmetic\data\ecoli\Fake_Ecoli
+set target=C:\Users\saiou\github\DNA_Comp\Arithmetic\data\ecoli\Ecoli
 
 ECHO ******Method******************Size****************Bits/Byte*******
 

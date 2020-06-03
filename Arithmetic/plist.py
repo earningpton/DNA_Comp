@@ -1,4 +1,5 @@
 class ProbabilityList():
+    ## Unlike frequency table, self.total must never change!
     def __init__(self, prior):
         self.prob_list = list(prior)
         if len(self.prob_list) < 1:
@@ -20,6 +21,24 @@ class ProbabilityList():
     def get(self, symbol):
         self._check_symbol(symbol)
         return self.prob_list[symbol]
+    
+    
+    def set_prob(self, symbol, prob):
+        self._check_symbol(symbol)
+        if prob =< 0:
+            raise ValueError('Probability can\'t be zero or negative')
+        #temp = self.total - self.frequencies[symbol]
+        #assert temp >= 0
+        self.frequencies[symbol] = freq
+        # my bug fix
+        #self.total = temp + freq
+        self.cumulative = None # reset cumulative
+    def set_problist(self, prob_list):
+        if sum(prob_list) != 1:
+            raise ValueError('Probability must sum up to 1')
+        self.prob_list = prob_list
+        self.cumulative = None # reset cumulative
+        
     def get_total(self):
         return self.total
     def get_low(self, symbol):

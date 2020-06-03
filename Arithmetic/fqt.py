@@ -55,6 +55,8 @@ class SimpleFrequencyTable(FrequencyTable):
         temp = self.total - self.frequencies[symbol]
         assert temp >= 0
         self.frequencies[symbol] = freq
+        # my bug fix
+        self.total = temp + freq
         self.cumulative = None
     def increment(self, symbol):
         self._check_symbol(symbol)
