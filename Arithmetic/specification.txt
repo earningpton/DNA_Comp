@@ -1,0 +1,26 @@
+
+cell=LSTM-C n_layer=4 hidden_size=352 batch_size=16 time_steps=20 seg_len=20 n_symb=256 ln=1 fc=1 sgd_opt=adam lr=4.000e-003 beta1=0.000000 beta2=0.999900 eps=1.000e-005 n_params=6.76M n_params_nie=5.32M mem=99.4MB
+
+     SIZE locBPS BPS/5M    BPS   kS/s       LR
+    100176  2.090  2.090  2.090   2.44 4.00e-003
+
+
+
+
+Trfcp: quite slow about 1.95->1.920 BPS towards the end
+
+n_layer=4 d_model=256 n_head=8 mem_len=32 train_len=32 d_pos=32 d_inner=512 n_symb=256 tied=0 init_range=0.050000 lr=3.00e-004,5000000,1.00e-004 n_params=2.24M n_params_nie=2.17M mem=22.3MB
+
+      SIZE locBPS BPS/5M    BPS   kS/s       LR
+   4638690  1.897  1.913  1.913   3.27 1.16e-004
+bps=1.913 (1109507 bytes), 3.17 kS/s
+
+
+# Large
+
+cell=LSTM-C n_layer=7 hidden_size=512 batch_size=16 time_steps=40 seg_len=20 n_symb=256 ln=1 fc=1 n_embed_out=5 sgd_opt=adam lr=5.000e-003 beta1=0.000000 beta2=0.999900 eps=1.000e-005 n_params=33.7M n_params_nie=30.0M mem=488MB
+
+cell=LSTM-C n_layer=7 hidden_size=512 batch_size=16 time_steps=40 seg_len=20 n_symb=256 ln=1 fc=1 n_embed_out=5 sgd_opt=adam lr=5.000e-003 beta1=0.000000 beta2=0.999900 eps=1.000e-005 n_params=33.7M n_params_nie=30.0M mem=488MB
+      SIZE locBPS BPS/5M    BPS   kS/s       LR
+   4607520  1.929  1.948  1.948   0.23 5.00e-003
+bps=1.948 (1129396 bytes), 0.21 kS/s

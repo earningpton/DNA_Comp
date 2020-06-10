@@ -25,19 +25,21 @@ class ProbabilityList():
     
     def set_prob(self, symbol, prob):
         self._check_symbol(symbol)
-        if prob =< 0:
+        if prob <= 0:
             raise ValueError('Probability can\'t be zero or negative')
-        #temp = self.total - self.frequencies[symbol]
-        #assert temp >= 0
-        self.frequencies[symbol] = freq
-        # my bug fix
-        #self.total = temp + freq
+        self.prob_list[symbol] = prob
         self.cumulative = None # reset cumulative
     def set_problist(self, prob_list):
         if sum(prob_list) != 1:
             raise ValueError('Probability must sum up to 1')
         self.prob_list = prob_list
         self.cumulative = None # reset cumulative
+    def normalize(self):
+        temp_total = sum(self.prob_list)
+        new_prob_list = [i/temp_total for i in self.prob_list]
+        self.prob_list = new_prob_list
+        self.prob_list[-1] = 1-sum(self.prob_list[:-1])
+        assert sum(self.prob_list) == 1
         
     def get_total(self):
         return self.total
