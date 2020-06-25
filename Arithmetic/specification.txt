@@ -24,3 +24,49 @@ cell=LSTM-C n_layer=7 hidden_size=512 batch_size=16 time_steps=40 seg_len=20 n_s
       SIZE locBPS BPS/5M    BPS   kS/s       LR
    4607520  1.929  1.948  1.948   0.23 5.00e-003
 bps=1.948 (1129396 bytes), 0.21 kS/s
+
+# In tensorflow 60,6 works better than 20,20.
+cell=LSTM-C n_layer=4 hidden_size=90 batch_size=16 time_steps=60 seg_len=6 n_symb=256 ln=1 fc=1 sgd_opt=adam lr=7.000e-003 beta1=0.000000 beta2=0.999900 eps=1.000e-005 n_params=786k n_params_nie=417k mem=36.5MB
+
+
+
+
+
+# Multiple test runs: n_symb=256 ln=1 fc=1 sgd_opt=adam lr=4.000e-003 beta1=0.000000 beta2=0.999900 eps=1.000e-005 
+
+	cell=LSTM-C n_layer=2 hidden_size=32 batch_size=16 time_steps=20 seg_len=20
+ n_params=94.7k n_params_nie=29.1k mem=3.68MB
+bps=1.929 (1118429 bytes), 165.79 kS/s
+	cell=LSTM-C n_layer=3 hidden_size=32 batch_size=64 time_steps=20 seg_len=20
+n_params=148k n_params_nie=49.8k mem=15.7MB 
+bps=1.967 (1140565 bytes), 112.14 kS/s
+	cell=LSTM-C n_layer=4 hidden_size=32 batch_size=16 time_steps=20 seg_len=20 
+ n_params=205k n_params_nie=74.5k mem=6.02MB
+bps=1.916 (1111045 bytes), 71.41 kS/s
+	cell=LSTM-C n_layer=2 hidden_size=90 batch_size=250 time_steps=60 seg_len=6 
+n_params=328k n_params_nie=144k mem=266MB
+bps=2.060 (1194606 bytes), 6.83 kS/s
+	cell=LSTM-C n_layer=4 hidden_size=90 batch_size=250 time_steps=60 seg_len=6
+n_params=786k n_params_nie=417k mem=477MB 
+bps=2.075 (1203370 bytes), 2.68 kS/s
+	cell=LSTM-C n_layer=4 hidden_size=352 batch_size=16 time_steps=20 seg_len=20
+ n_params=6.76M n_params_nie=5.32M mem=99.4MB
+bps=1.895 (1098677 bytes), 2.51 kS/s
+
+huh7?
+	cell=LSTM-C n_layer=4 hidden_size=352 batch_size=16 time_steps=60 seg_len=6
+ n_params=6.76M n_params_nie=5.32M mem=99.4MB
+bps=1.895 (1098677 bytes), 2.51 kS/s
+
+      SIZE locBPS BPS/5M    BPS   kS/s       LR
+   4608112  1.922  1.929  1.929 163.42 4.00e-003
+      SIZE locBPS BPS/5M    BPS   kS/s       LR
+   4553344  1.938  1.967  1.967 120.03 4.00e-003
+      SIZE locBPS BPS/5M    BPS   kS/s       LR
+   4608112  1.912  1.916  1.916  72.54 4.00e-003
+      SIZE locBPS BPS/5M    BPS   kS/s       LR
+   4634750  2.040  2.058  2.058   7.01 4.00e-003
+      SIZE locBPS BPS/5M    BPS   kS/s       LR
+   4634750  2.049  2.073  2.074   2.70 4.00e-003
+      SIZE locBPS BPS/5M    BPS   kS/s       LR
+   4608112  1.898  1.895  1.895   2.27 4.00e-003

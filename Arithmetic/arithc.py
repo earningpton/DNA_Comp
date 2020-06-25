@@ -13,10 +13,10 @@ class ArithmeticCoder:
         self.tb = (1 << self.b) - 1
         self.mask = (1 << self.b) - 1
         
-        self.R: int  = int()
-        self.L: int  = int()
-        self.D: int  = int()
-        self.bits_waiting: int  = int()
+        self.R = int()
+        self.L  = int()
+        self.D = int()
+        self.bits_waiting  = int()
         self.output = None
         self.input = None
         
@@ -28,9 +28,9 @@ class ArithmeticCoder:
         
     def start_encode(self, output):
         self.output = output
-        self.L: int = 0
-        self.R: int = self.tb
-        self.bits_waiting: int = 0
+        self.L = 0
+        self.R = self.tb
+        self.bits_waiting = 0
         
     def getRange(self):
         return self.R
