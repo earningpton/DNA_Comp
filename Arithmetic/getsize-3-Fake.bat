@@ -2,7 +2,7 @@
 
 ECHO OFF
 
-set target=C:\Users\acer\Documents\GitHub\DNA_Comp\Arithmetic\data\ecoli\Ecoli
+set target=C:\Users\acer\Documents\GitHub\DNA_Comp\Arithmetic\data\ecoli\Fake_Ecoli
 
 ECHO ******Method******************Size****************Bits/Byte*******
 
@@ -14,12 +14,12 @@ Set "name=%%~nxI                                 "
 Set "size=%%~zI                                    "
 Set "bb=%ogsize%                                    "
 
-set /A one=800
-set /A kilo=1000
+set /A one=8000
+set /A kilo=10000
 set /A new=%%~zI/kilo
 set /A old=og/kilo
 set /A div= one*new/old
 
-Call Echo %%name:~,30%%%%size:~,20%%%%div:~0,-2%%.%%div:~-2%%)
+Call Echo %%name:~,30%%%%size:~,20%%%%div:~0,-3%%.%%div:~-3%%)
 Echo(
 PAUSE
