@@ -1,0 +1,152 @@
+PAQ8l
+
+Creating archive C:\Users\acer\Documents\GitHub\DNA_Comp\Arithmetic\data\DNACorpus\AeCa.paq8l with 1 file(s)...
+C:/Users/acer/Documents/GitHub/DNA_Comp/Arithmetic/data/DNACorpus/AeCa 1591049 -> 378347
+1591049 -> 378373
+Time 74.99 sec, used 1643021263 bytes of memory
+AeCa Called
+Creating archive C:\Users\acer\Documents\GitHub\DNA_Comp\Arithmetic\data\DNACorpus\AgPh.paq8l with 1 file(s)...
+C:/Users/acer/Documents/GitHub/DNA_Comp/Arithmetic/data/DNACorpus/AgPh 43970 -> 10700
+43970 -> 10724
+Time 2.25 sec, used 1643021265 bytes of memory
+AgPh Called
+Creating archive C:\Users\acer\Documents\GitHub\DNA_Comp\Arithmetic\data\DNACorpus\AnCa.paq8l with 1 file(s)...
+C:/Users/acer/Documents/GitHub/DNA_Comp/Arithmetic/data/DNACorpus/AnCa 142189675 -> 29423742
+142189675 -> 29423770
+Time 6574.51 sec, used 1643021261 bytes of memory
+AnCa Called
+Creating archive C:\Users\acer\Documents\GitHub\DNA_Comp\Arithmetic\data\DNACorpus\BuEb.paq8l with 1 file(s)...
+C:/Users/acer/Documents/GitHub/DNA_Comp/Arithmetic/data/DNACorpus/BuEb 18940 -> 4676
+18940 -> 4700
+Time 1.14 sec, used 1643021265 bytes of memory
+BuEb Called
+Creating archive C:\Users\acer\Documents\GitHub\DNA_Comp\Arithmetic\data\DNACorpus\DaRe.paq8l with 1 file(s)...
+C:/Users/acer/Documents/GitHub/DNA_Comp/Arithmetic/data/DNACorpus/DaRe 62565020 -> 12539021
+62565020 -> 12539048
+Time 2742.34 sec, used 1643021262 bytes of memory
+DaRe Called
+Creating archive C:\Users\acer\Documents\GitHub\DNA_Comp\Arithmetic\data\DNACorpus\DrMe.paq8l with 1 file(s)...
+C:/Users/acer/Documents/GitHub/DNA_Comp/Arithmetic/data/DNACorpus/DrMe 32181429 -> 7558672
+32181429 -> 7558699
+Time 1356.68 sec, used 1643021262 bytes of memory
+DrMe Called
+Creating archive C:\Users\acer\Documents\GitHub\DNA_Comp\Arithmetic\data\DNACorpus\EnIn.paq8l with 1 file(s)...
+C:/Users/acer/Documents/GitHub/DNA_Comp/Arithmetic/data/DNACorpus/EnIn 26403087 -> 5719150
+26403087 -> 5719177
+Time 1138.71 sec, used 1643021262 bytes of memory
+EnIn Called
+Creating archive C:\Users\acer\Documents\GitHub\DNA_Comp\Arithmetic\data\DNACorpus\EsCo.paq8l with 1 file(s)...
+C:/Users/acer/Documents/GitHub/DNA_Comp/Arithmetic/data/DNACorpus/EsCo 4641652 -> 1101979
+4641652 -> 1102005
+Time 197.62 sec, used 1643021263 bytes of memory
+EsCo Called
+Creating archive C:\Users\acer\Documents\GitHub\DNA_Comp\Arithmetic\data\DNACorpus\GaGa.paq8l with 1 file(s)...
+C:/Users/acer/Documents/GitHub/DNA_Comp/Arithmetic/data/DNACorpus/GaGa 148532294 -> 34317731
+148532294 -> 34317759
+Time 5988.66 sec, used 1643021261 bytes of memory
+GaGa Called
+Creating archive C:\Users\acer\Documents\GitHub\DNA_Comp\Arithmetic\data\DNACorpus\HaHi.paq8l with 1 file(s)...
+C:/Users/acer/Documents/GitHub/DNA_Comp/Arithmetic/data/DNACorpus/HaHi 3890005 -> 900144
+3890005 -> 900170
+Time 150.52 sec, used 1643021263 bytes of memory
+HaHi Called
+Creating archive C:\Users\acer\Documents\GitHub\DNA_Comp\Arithmetic\data\DNACorpus\HePy.paq8l with 1 file(s)...
+C:/Users/acer/Documents/GitHub/DNA_Comp/Arithmetic/data/DNACorpus/HePy 1667825 -> 382588
+1667825 -> 382614
+Time 64.19 sec, used 1643021263 bytes of memory
+HePy Called
+Creating archive C:\Users\acer\Documents\GitHub\DNA_Comp\Arithmetic\data\DNACorpus\HoSa.paq8l with 1 file(s)...
+C:/Users/acer/Documents/GitHub/DNA_Comp/Arithmetic/data/DNACorpus/HoSa 189752667 -> 40310398
+189752667 -> 40310426
+Time 8187.01 sec, used 1643021261 bytes of memory
+HoSa Called
+Creating archive C:\Users\acer\Documents\GitHub\DNA_Comp\Arithmetic\data\DNACorpus\OrSa.paq8l with 1 file(s)...
+C:/Users/acer/Documents/GitHub/DNA_Comp/Arithmetic/data/DNACorpus/OrSa 43262523 -> 9237983
+43262523 -> 9238010
+Time 2099.89 sec, used 1643021262 bytes of memory
+OrSa Called
+Creating archive C:\Users\acer\Documents\GitHub\DNA_Comp\Arithmetic\data\DNACorpus\PlFa.paq8l with 1 file(s)...
+C:/Users/acer/Documents/GitHub/DNA_Comp/Arithmetic/data/DNACorpus/PlFa 8986712 -> 1951213
+8986712 -> 1951239
+Time 592.54 sec, used 1643021263 bytes of memory
+PlFa Called
+Creating archive C:\Users\acer\Documents\GitHub\DNA_Comp\Arithmetic\data\DNACorpus\ScPo.paq8l with 1 file(s)...
+C:/Users/acer/Documents/GitHub/DNA_Comp/Arithmetic/data/DNACorpus/ScPo 10652155 -> 2549788
+10652155 -> 2549815
+Time 801.79 sec, used 1643021262 bytes of memory
+ScPo Called
+Creating archive C:\Users\acer\Documents\GitHub\DNA_Comp\Arithmetic\data\DNACorpus\WaMe.paq8l with 1 file(s)...
+C:/Users/acer/Documents/GitHub/DNA_Comp/Arithmetic/data/DNACorpus/WaMe 9144432 -> 2225810
+9144432 -> 2225836
+Time 579.53 sec, used 1643021263 bytes of memory
+WaMe Called
+Creating archive C:\Users\acer\Documents\GitHub\DNA_Comp\Arithmetic\data\DNACorpus\YeMi.paq8l with 1 file(s)...
+C:/Users/acer/Documents/GitHub/DNA_Comp/Arithmetic/data/DNACorpus/YeMi 73689 -> 16761
+73689 -> 16785
+Time 5.08 sec, used 1643021265 bytes of memory
+YeMi Called
+Press any key to continue . . .
+
+ppm
+# Compressing...
+# Time taken to compress:10.522
+AeCa Called
+# Compressing...
+# Time taken to compress:0.289
+AgPh Called
+# Compressing...
+# Time taken to compress:991.635
+AnCa Called
+# Compressing...
+# Time taken to compress:0.146
+BuEb Called
+# Compressing...
+# Time taken to compress:222.67
+DrMe Called
+# Compressing...
+# Time taken to compress:1803.3
+EnIn Called
+# Compressing...
+# Time taken to compress:31.448
+EsCo Called
+# Compressing...
+# Time taken to compress:1081.25
+GaGa Called
+# Compressing...
+# Time taken to compress:30.57
+HaHi Called
+# Compressing...
+# Time taken to compress:13.054
+HePy Called
+# Compressing...
+# Time taken to compress:1335.74
+HoSa Called
+# Compressing...
+# Time taken to compress:309.445
+OrSa Called
+# Compressing...
+# Time taken to compress:71.675
+PlFa Called
+# Compressing...
+# Time taken to compress:84.021
+ScPo Called
+# Compressing...
+# Time taken to compress:74.216
+WaMe Called
+# Compressing...
+# Time taken to compress:0.706
+YeMi Called
+Press any key to continue . . .
+
+NNCP
+cell=LSTM-C n_layer=4 hidden_size=352 batch_size=8 time_steps=24 seg_len=24 n_symb=256 ln=1 fc=1 sgd_opt=adam lr=4.000e-003 beta1=0.000000 beta2=0.999900 eps=1.000e-005 n_params=6.76M n_params_nie=5.32M mem=83.6MB
+      SIZE locBPS BPS/5M    BPS   kS/s       LR
+   1500488  1.841  1.865  1.865   2.25 4.00e-003
+bps=1.863 (370602 bytes), 2.22 kS/s
+AeCa Called
+cell=LSTM-C n_layer=4 hidden_size=352 batch_size=8 time_steps=24 seg_len=24 n_symb=256 ln=1 fc=1 sgd_opt=adam lr=4.000e-003 beta1=0.000000 beta2=0.999900 eps=1.000e-005 n_params=6.76M n_params_nie=5.32M mem=83.6MB
+
+bps=2.145 (11792 bytes), 2.25 kS/s
+AgPh Called
+
+

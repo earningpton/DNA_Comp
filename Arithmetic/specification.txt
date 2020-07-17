@@ -30,7 +30,15 @@ cell=LSTM-C n_layer=4 hidden_size=90 batch_size=16 time_steps=60 seg_len=6 n_sym
 
 
 
-
+cell=LSTM-C n_layer=4 hidden_size=352 batch_size=16 time_steps=24 seg_len=24 n_symb=256 ln=1 fc=1 sgd_opt=adam lr=4.000e-003 beta1=0.000000 beta2=0.999900 eps=1.000e-005 n_params=6.76M n_params_nie=5.32M mem=107MB
+      SIZE locBPS BPS/5M    BPS   kS/s       LR
+   4610352  1.856  1.896  1.896   2.11 4.00e-003
+bps=1.896 (1099237 bytes), 2.06 kS/s
+nncp large Called
+cell=LSTM-C n_layer=4 hidden_size=352 batch_size=8 time_steps=24 seg_len=24 n_symb=256 ln=1 fc=1 sgd_opt=adam lr=4.000e-003 beta1=0.000000 beta2=0.999900 eps=1.000e-005 n_params=6.76M n_params_nie=5.32M mem=83.6MB
+      SIZE locBPS BPS/5M    BPS   kS/s       LR
+   4601496  1.850  1.886  1.886   1.85 4.00e-003
+bps=1.885 (1093223 bytes), 1.91 kS/s
 
 # Multiple test runs: n_symb=256 ln=1 fc=1 sgd_opt=adam lr=4.000e-003 beta1=0.000000 beta2=0.999900 eps=1.000e-005 
 

@@ -1,17 +1,12 @@
 ECHO OFF
 
-set target=C:\Users\saiou\github\DNA_Comp\Arithmetic\data\ecoli\Ecoli
+set target=C:\Users\acer\Documents\GitHub\DNA_Comp\Arithmetic\data\ecoli\Ecoli
 
 ECHO %target%
 
 
-paq8o10t -9 %target%.txt
-
-ECHO paq8o10t Called
-
-paq8o10t -d %target%.txt.paq8o10t %target%_test.txt
-
-ECHO paq8o10t Called
+zpaq64 a %target%_5.zpaq %target%.txt -method 5
+ECHO zpaq64 Called
 
 
 PAUSE
